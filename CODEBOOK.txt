@@ -1,0 +1,26 @@
+There are four input data bins
+Test Inertial (x,y,z axis)
+Test Gyro (x,y,z axis)
+Train Inertial (x,y,z axis)
+Train Gyro (x,y,z axis)
+
+The names of each column in the data frame for each of the above is 
+changed to be reflective of actually what the data is;
+
+the column names are the following;
+x-Test-Person-
+y-Test-Person-
+z-Test-Person-
+x-Gyro-Person-
+y-Gyro-Person-
+z-Gyro-Person-
+x-Train-Person-
+y-Train-Person-
+z-Train-Person-
+
+The rest of the code uses self declaring variables
+My data set was very clean to start out with and only required
+the na.omit() function.
+
+
+
